@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := gigaset
+BOARD_VENDOR := volla
 
-DEVICE_PATH := device/gigaset/GS290
+DEVICE_PATH := device/volla/yggdrasil
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -63,7 +63,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/gigaset/mt6763
+TARGET_KERNEL_SOURCE := kernel/volla/mt6763
 TARGET_KERNEL_CONFIG := gs290_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \
@@ -146,4 +146,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 BOARD_PREBUILT_VBMETAIMAGE := $(DEVICE_PATH)/prebuilt/vbmeta.img
 
 # Inherit from the proprietary version
--include vendor/gigaset/GS290/BoardConfigVendor.mk
+-include vendor/volla/yggdrasil/BoardConfigVendor.mk

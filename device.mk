@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/gigaset/GS290/GS290-vendor.mk)
+$(call inherit-product, vendor/volla/yggdrasil/yggdrasil-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)

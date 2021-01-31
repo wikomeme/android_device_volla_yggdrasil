@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_GS290.mk
+    $(LOCAL_DIR)/lineage_yggdrasil.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_GS290-user \
-    lineage_GS290-userdebug \
-    lineage_GS290-eng
+    lineage_yggdrasil-user \
+    lineage_yggdrasil-userdebug \
+    lineage_yggdrasil-eng

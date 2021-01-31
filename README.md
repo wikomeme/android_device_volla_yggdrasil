@@ -1,6 +1,6 @@
-Copyright 2020 - The LineageOS Project
+Copyright 2020-2021 - The LineageOS Project
 
-Device configuration for Gigaset GS290 (GS290)
+Device configuration for Volla Phone (yggdrasil)
 ==================================
 
 Basic   | Spec Sheet
