@@ -17,8 +17,8 @@
 
 set -e
 
-export DEVICE=GS290
-export VENDOR=gigaset
+export DEVICE=yggdrasil
+export VENDOR=Volla
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

@@ -17,8 +17,8 @@
 
 set -e
 
-export DEVICE=GS290
-export VENDOR=gigaset
+export DEVICE=yggdrasil
+export VENDOR=Volla
 export DEVICE_BRINGUP_YEAR=2021
 export INITIAL_COPYRIGHT_YEAR=2021
 
