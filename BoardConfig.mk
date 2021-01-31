@@ -144,10 +144,7 @@ include device/mediatek/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Android Verified Boot
-BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
-BOARD_PREBUILT_VBMETAIMAGE := $(DEVICE_PATH)/prebuilt/vbmeta.img
+BOARD_AVB_ENABLE := false
 
 # Inherit from the proprietary version
 -include vendor/volla/yggdrasil/BoardConfigVendor.mk
