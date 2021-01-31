@@ -25,9 +25,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from yggdrasil device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := Volla
+PRODUCT_BRAND := volla
 PRODUCT_DEVICE := yggdrasil
-PRODUCT_MANUFACTURER := "Hallo Welt Systeme UG"
+PRODUCT_MANUFACTURER := Volla
 PRODUCT_NAME := lineage_yggdrasil
 PRODUCT_MODEL := yggdrasil
 
